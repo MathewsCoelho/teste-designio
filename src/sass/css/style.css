@@ -5,7 +5,7 @@
 
 /* line 9, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 * {
-  padding: 0;
+  box-sizing: border-box;
   margin: 0;
   list-style: none;
   text-decoration: none;
@@ -14,42 +14,93 @@
 
 /* line 17, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 header {
-  width: 100%;
+  width: 100vw;
   margin: 0 auto;
 }
 
-/* line 22, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
-.menu-header {
-  width: 100%;
+/* line 20, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+header ul {
+  z-index: 9999;
+  width: 100vw;
   text-align: center;
   display: inline-table;
   margin: 0 auto;
   position: fixed;
+  text-transform: uppercase;
 }
 
 /* line 28, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
-.menu-header li {
+header ul li {
   display: inline-table;
 }
 
 /* line 30, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
-.menu-header li a {
+header ul li a {
   font-size: 1em;
   display: block;
   color: #ffffff;
   padding: 95px 26px 0 0;
 }
 
-/* line 39, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 40, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .banner {
   max-width: 100%;
-  height: 650px;
+  max-height: 650px;
   padding: 0;
 }
 
-/* line 43, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 44, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .banner img {
-  width: 100vw;
+  width: 100%;
+  min-height: 650px;
+}
+
+/* line 51, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.presentation p {
+  text-transform: uppercase;
+  position: relative;
+  margin: 0 auto;
+  height: auto;
+  width: 250px;
+  margin-top: -60px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+/* line 61, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.presentation .bg-video {
+  position: relative;
+  margin: 0 auto;
+  height: 378px;
+  width: 528px;
+  margin-top: -20px;
+  border-radius: 5px;
+  border: solid 14px #ffffff;
+  background-color: #686868;
+}
+
+/* line 72, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.about {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* line 76, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.about .textAbout {
+  color: grey;
+}
+
+/* line 78, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.about .textAbout p {
+  width: 400px;
+}
+
+/* line 83, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.about .lemonText, .about .eyeText {
+  background-color: grey;
+  height: 192px;
+  width: 100%;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=../css/style.map */

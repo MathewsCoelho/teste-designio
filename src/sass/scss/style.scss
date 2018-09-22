@@ -7,7 +7,7 @@ $corSecundaria: #3168ff;
 }
 
 *{
-    padding: 0;
+    box-sizing: border-box;
     margin: 0;
     list-style: none;
     text-decoration: none;
@@ -15,32 +15,75 @@ $corSecundaria: #3168ff;
 }
 
 header{
-    width: 100%;
+    width: 100vw;
     margin: 0 auto;
-}
-
-.menu-header{
-    width: 100%;
-    text-align: center;
-    display: inline-table;
-    margin: 0 auto;
-    position: fixed;
-    li{
+    ul{
+        z-index: 9999;
+        width: 100vw;
+        text-align: center;
         display: inline-table;
-        a{
-            font-size: 1em;
-            display: block;
-            color: $corPrimaria;
-            padding: 95px 26px 0 0;
-        }
-    } 
+        margin: 0 auto;
+        position: fixed;
+        text-transform: uppercase;
+        li{
+            display: inline-table;
+            a{
+                font-size: 1em;
+                display: block;
+                color: $corPrimaria;
+                padding: 95px 26px 0 0;
+            }
+        } 
+    }  
 }
 
 .banner{
     max-width: 100%;
-    height: 650px;
+    max-height: 650px;
     padding: 0;
     img{
-        width: 100vw;
+        width: 100%;
+        min-height: 650px;
+    }
+}
+
+.presentation{
+    p{
+        text-transform: uppercase;
+        position: relative;
+        margin: 0 auto;
+        height: auto;
+        width: 250px;
+        margin-top: -60px;
+        margin-bottom: 10px;
+        color: $corPrimaria;
+    }
+    .bg-video{
+        position: relative;
+        margin: 0 auto;
+        height: 378px;
+        width: 528px;
+        margin-top: -20px;
+        border-radius: 5px;
+        border: solid 14px $corPrimaria;
+        background-color: rgb(104, 104, 104);
+    }
+}
+.about{
+    margin-top: 25px;
+    margin-bottom: 25px; 
+    
+    .textAbout{
+        color: grey;
+        p{
+            width: 400px;
+        }
+    }
+
+    .lemonText, .eyeText{
+        background-color: grey;
+        height: 192px;
+        width: 100%;
+        color: $corPrimaria;
     }
 }
