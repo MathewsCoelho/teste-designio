@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'TitilliumWeb-SemiBold';
+  src: url("../../fonts/TitilliumWeb-SemiBold.ttf");
+}
+
+/* line 9, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+* {
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'TitilliumWeb-SemiBold';
+}
+
+/* line 16, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+header {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 21, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.menu-header {
+  display: inline-table;
+  background-color: black;
+}
+
+/* line 24, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.menu-header li {
+  display: inline-table;
+}
+
+/* line 26, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.menu-header li a {
+  display: block;
+  color: #ffffff;
+  padding: 95px 26px 0 0;
+}
+
+/*# sourceMappingURL=../css/style.map */

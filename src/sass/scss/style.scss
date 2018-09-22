@@ -1,0 +1,33 @@
+$corPrimaria: #ffffff;
+$corSecundaria: #3168ff;
+
+@font-face{
+    font-family: 'TitilliumWeb-SemiBold';
+    src: url('../../fonts/TitilliumWeb-SemiBold.ttf');
+}
+
+*{
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'TitilliumWeb-SemiBold';
+}
+
+header{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menu-header{
+    display: inline-table;
+    background-color: black;
+    li{
+        display: inline-table;
+        a{
+            display: block;
+            color: $corPrimaria;
+            padding: 95px 26px 0 0;
+        }
+    }
+    
+}
