@@ -79,11 +79,41 @@ header{
             width: 400px;
         }
     }
+    .lemonText p{
+        width: 150px;
+    }
 
+    .eyeText p{
+        width: 100px;
+    }
     .lemonText, .eyeText{
         background-color: grey;
         height: 192px;
         width: 100%;
+        
+        p{
+            padding-top: 20px;
+            margin: 0 auto;
+            color: $corPrimaria;
+            text-align: center;
+        }
+    }
+}
+
+.contact{
+    .col-sm-7{
+        height: 400px;
+        background-color: grey;
+    }
+}
+
+footer{
+    width: 100%;
+    margin: 0 auto;
+    background-color:$corSecundaria;
+    p{
+        padding: 12px 0;
+        text-align: center;
         color: $corPrimaria;
     }
 }

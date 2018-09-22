@@ -95,11 +95,48 @@ header ul li a {
   width: 400px;
 }
 
-/* line 83, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 82, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.about .lemonText p {
+  width: 150px;
+}
+
+/* line 86, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.about .eyeText p {
+  width: 100px;
+}
+
+/* line 89, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .about .lemonText, .about .eyeText {
   background-color: grey;
   height: 192px;
   width: 100%;
+}
+
+/* line 94, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.about .lemonText p, .about .eyeText p {
+  padding-top: 20px;
+  margin: 0 auto;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* line 104, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.contact .col-sm-7 {
+  height: 400px;
+  background-color: grey;
+}
+
+/* line 110, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+footer {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #3168ff;
+}
+
+/* line 114, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+footer p {
+  padding: 12px 0;
+  text-align: center;
   color: #ffffff;
 }
 
