@@ -52,7 +52,7 @@ header ul li a {
 /* line 44, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .banner img {
   width: 100%;
-  min-height: 650px;
+  max-height: 650px;
 }
 
 /* line 51, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
@@ -61,79 +61,126 @@ header ul li a {
   position: relative;
   margin: 0 auto;
   height: auto;
-  width: 250px;
-  margin-top: -60px;
+  width: auto;
+  text-align: center;
+  margin-top: -100px;
   margin-bottom: 10px;
   color: #ffffff;
 }
 
-/* line 61, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 62, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .presentation .bg-video {
   position: relative;
   margin: 0 auto;
   height: 378px;
   width: 528px;
-  margin-top: -20px;
+  margin-top: -65px;
   border-radius: 5px;
   border: solid 14px #ffffff;
   background-color: #686868;
 }
 
-/* line 72, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 73, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .about {
   margin-top: 25px;
   margin-bottom: 25px;
 }
 
-/* line 76, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
-.about .textAbout {
+/* line 77, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.about .text-about {
   color: grey;
 }
 
-/* line 78, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
-.about .textAbout p {
+/* line 79, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.about .text-about p {
   width: 400px;
 }
 
-/* line 82, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
-.about .lemonText p {
+/* line 83, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.about .lemon-text p {
   width: 150px;
 }
 
-/* line 86, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
-.about .eyeText p {
+/* line 87, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.about .eye-text p {
   width: 100px;
 }
 
-/* line 89, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
-.about .lemonText, .about .eyeText {
+/* line 90, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.about .lemon-text, .about .eye-text {
   background-color: grey;
   height: 192px;
   width: 100%;
 }
 
-/* line 94, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
-.about .lemonText p, .about .eyeText p {
+/* line 95, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.about .lemon-text p, .about .eye-text p {
   padding-top: 20px;
   margin: 0 auto;
   color: #ffffff;
   text-align: center;
 }
 
-/* line 104, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 105, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .contact .col-sm-7 {
   height: 400px;
   background-color: grey;
 }
 
-/* line 110, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 109, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.contact h1 {
+  text-transform: uppercase;
+}
+
+/* line 112, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.contact .contact-form {
+  height: auto;
+}
+
+/* line 114, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.contact .contact-form label {
+  position: relative;
+  top: 5px;
+  font-size: 0.7em;
+  color: grey;
+}
+
+/* line 120, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.contact .contact-form input {
+  outline: none;
+  color: #696969;
+  width: 100%;
+  border-radius: 0;
+  border-width: 0 0 1px;
+  border-bottom-color: grey;
+  margin-bottom: 20px;
+}
+
+/* line 129, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.contact .contact-form input:focus {
+  box-shadow: none;
+  border-bottom: 2px solid #3168ff;
+}
+
+/* line 133, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.contact .contact-form button {
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 10px 60px;
+  border: none;
+  border-radius: 20px;
+  background-color: #3168ff;
+  float: right;
+}
+
+/* line 145, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 footer {
   width: 100%;
   margin: 0 auto;
   background-color: #3168ff;
 }
 
-/* line 114, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 149, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 footer p {
   padding: 12px 0;
   text-align: center;

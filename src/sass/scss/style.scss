@@ -1,5 +1,5 @@
-$corPrimaria: #ffffff;
-$corSecundaria: #3168ff;
+$primaryColor: #ffffff;
+$secondaryColor: #3168ff;
 
 @font-face{
     font-family: 'TitilliumWeb-SemiBold';
@@ -30,7 +30,7 @@ header{
             a{
                 font-size: 1em;
                 display: block;
-                color: $corPrimaria;
+                color: $primaryColor;
                 padding: 95px 26px 0 0;
             }
         } 
@@ -43,7 +43,7 @@ header{
     padding: 0;
     img{
         width: 100%;
-        min-height: 650px;
+        max-height: 650px;
     }
 }
 
@@ -53,19 +53,20 @@ header{
         position: relative;
         margin: 0 auto;
         height: auto;
-        width: 250px;
-        margin-top: -60px;
+        width: auto;
+        text-align: center;
+        margin-top: -100px;
         margin-bottom: 10px;
-        color: $corPrimaria;
+        color: $primaryColor;
     }
     .bg-video{
         position: relative;
         margin: 0 auto;
         height: 378px;
         width: 528px;
-        margin-top: -20px;
+        margin-top: -65px;
         border-radius: 5px;
-        border: solid 14px $corPrimaria;
+        border: solid 14px $primaryColor;
         background-color: rgb(104, 104, 104);
     }
 }
@@ -73,20 +74,20 @@ header{
     margin-top: 25px;
     margin-bottom: 25px; 
     
-    .textAbout{
+    .text-about{
         color: grey;
         p{
             width: 400px;
         }
     }
-    .lemonText p{
+    .lemon-text p{
         width: 150px;
     }
 
-    .eyeText p{
+    .eye-text p{
         width: 100px;
     }
-    .lemonText, .eyeText{
+    .lemon-text, .eye-text{
         background-color: grey;
         height: 192px;
         width: 100%;
@@ -94,7 +95,7 @@ header{
         p{
             padding-top: 20px;
             margin: 0 auto;
-            color: $corPrimaria;
+            color: $primaryColor;
             text-align: center;
         }
     }
@@ -105,15 +106,49 @@ header{
         height: 400px;
         background-color: grey;
     }
+    h1{
+        text-transform: uppercase;
+    }
+    .contact-form{
+        height: auto;
+        label{
+            position: relative;
+            top: 5px;
+            font-size: 0.7em;
+            color: grey;
+        }
+        input{
+            outline: none;
+            color: #696969;
+            width: 100%;
+            border-radius: 0;
+            border-width: 0 0 1px;
+            border-bottom-color:grey;
+            margin-bottom: 20px;
+        }
+        input:focus{
+            box-shadow: none;
+            border-bottom: 2px solid $secondaryColor;
+        }
+        button{
+            text-transform: uppercase;
+            color: $primaryColor;
+            padding: 10px 60px;
+            border: none;
+            border-radius: 20px;
+            background-color: $secondaryColor;
+            float: right;
+        }
+    }
 }
 
 footer{
     width: 100%;
     margin: 0 auto;
-    background-color:$corSecundaria;
+    background-color:$secondaryColor;
     p{
         padding: 12px 0;
         text-align: center;
-        color: $corPrimaria;
+        color: $primaryColor;
     }
 }
