@@ -48,6 +48,9 @@ header{
 }
 
 .presentation{
+    .col-sm-6{
+        margin: 0 auto;
+    }
     p{
         text-transform: uppercase;
         position: relative;
@@ -61,11 +64,12 @@ header{
     }
 
     .bg-video{
+        padding-bottom: 56.25%; 
         position: relative;
         margin: 0 auto;
         max-width: 100%; 
-        width: 528px;
-        height: 400px;
+        width: 100%;
+        height: auto;
         margin-top: -65px;
         border-radius: 5px;
         border: solid 14px $primaryColor;
