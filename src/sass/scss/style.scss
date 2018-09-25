@@ -1,3 +1,6 @@
+@import "_normalize.scss";
+@import "_reset.scss";
+
 $primaryColor: #ffffff;
 $secondaryColor: #3168ff;
 
@@ -48,7 +51,7 @@ header{
 }
 
 .presentation{
-    .col-sm-6{
+    .col-sm-8{
         margin: 0 auto;
     }
     p{
@@ -58,9 +61,10 @@ header{
         height: auto;
         width: auto;
         text-align: center;
-        margin-top: -100px;
+        margin-top: -110px;
         margin-bottom: 10px;
         color: $primaryColor;
+        font-size: 1.5em;
     }
 
     .bg-video{
@@ -89,13 +93,19 @@ header{
     margin-bottom: 25px; 
     
     .text-about{
-        color: grey;
+        h2{
+            font-size: 1.5em;
+            color: #6D6D6D;
+        }
         p{
             width: auto;
+            color: #707070;
+            font-size: 1.125em;  
         }
     }
     .lemon-text p{
         width: 150px;
+         
     }
 
     .eye-text p{
@@ -111,6 +121,7 @@ header{
             margin: 0 auto;
             color: $primaryColor;
             text-align: center;
+            font-size: 1.5em ; 
         }
     }
 }
@@ -122,13 +133,14 @@ header{
     }
     h1{
         text-transform: uppercase;
+        font-size: 2.25em;
     }
     .contact-form{
         height: auto;
         label{
             position: relative;
             top: 5px;
-            font-size: 0.7em;
+            font-size: 0.875em;
             color: grey;
         }
         input{
@@ -139,6 +151,9 @@ header{
             border-width: 0 0 1px;
             border-bottom-color:grey;
             margin-bottom: 20px;
+        }
+        input, p{
+            font-size: 1.125em;
         }
         input:focus{
             box-shadow: none;
@@ -152,6 +167,7 @@ header{
             border-radius: 20px;
             background-color: $secondaryColor;
             float: right;
+            font-size: 1em;
         }
     }
 }
@@ -164,5 +180,6 @@ footer{
         padding: 12px 0;
         text-align: center;
         color: $primaryColor;
+        font-size: 0.875em;
     }
 }
