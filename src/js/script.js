@@ -1,4 +1,4 @@
-/*function initMap() {
+function initMap() {
     var myLatLng = {
         lat: -25.363, lng: 131.044
     };
@@ -13,15 +13,16 @@ var marker = new google.maps.Marker({
     position: myLatLng,
     title: 'Hello World!'
   });
-} */
-
+} 
 
 $(window).scroll(function() {
   console.log('oi');
   if ($(this).scrollTop() > 100) {
               $('.menu').addClass('fixed');
+              $('.logo').addClass('logo-min');
       } else {
           $('.menu').removeClass('fixed');
+          $('.logo').removeClass('logo-min');
       }
 });
 

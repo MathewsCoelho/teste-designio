@@ -1,23 +1,10 @@
 @import "_normalize.scss";
 @import "_reset.scss";
-
+@import "fonts.scss";
 $primaryColor: #ffffff;
 $secondaryColor: #3168ff;
 
-@font-face{
-    font-family: 'TitilliumWeb-SemiBold';
-    src: url('../../fonts/TitilliumWeb-SemiBold.ttf');
-}
 
-@font-face{
-    font-family: 'SourceSansPro-Semibold';
-    src: url('../../fonts/SourceSansPro-Semibold.otf');
-}
-
-@font-face{
-    font-family: 'Roboto-Light';
-    src: url('../../fonts/Roboto-Light.ttf');
-}
 
 *{
     box-sizing: border-box;
@@ -28,43 +15,60 @@ $secondaryColor: #3168ff;
 }
 
 .menu{
-    @media only screen and (max-width: 768px) {
-        ul{
-            display: none;
-        }
-    }
     z-index: 9999;
+    display: flex;
     width: 100%;
     text-align: center;
-    display: inline-table;
-    margin: 0 auto;
     position: absolute;
     text-transform: uppercase;
+    justify-content: center;
+    margin-top: 30px;
+    .logo{
+        margin-right: 130px;
+    }
+    .logo-min{
+        height: 60px;
+    }
+
     nav{
-        img{
-            margin-right: 130px;
-        }
-        li{
-            display: inline-block;
-            a{
-                font-size: 1em;
-                display: block;
-                color: $primaryColor;
-                padding-right: 26px;
+        display: flex;
+        ul{
+            display: flex;
+            align-items: center;
+            li{
+                display: inline-block;
+                a{
+                    font-size: 1em;
+                    display: block;
+                    color: $primaryColor;
+                    padding-right: 26px;
+                }
+                i{
+                    font-size: 2.81em;
+                }
             }
-            i{
-                font-size: 2.81em;
+            li:last-child{
+                padding-left: 4px;
             }
-        }
-        li:last-child{
-            padding-left: 4px;
         }
     }  
+
+    @media only screen and (max-width: 1024px) {
+        nav{
+            display: none;
+        }
+        .logo{
+            height: 60px;
+            margin-right: 0;
+        }
+    }
 }
+
 
 .fixed{
     position: fixed;
-    padding: 20px;
+    padding: 10px;
+    margin-top: 0;
     background-color: black;
 }
 
@@ -119,8 +123,7 @@ $secondaryColor: #3168ff;
     }
 }
 .about{
-    margin-top: 52px;
-    margin-bottom: 25px; 
+    margin-top: 37px; 
     
     .text-about{
         h2{
@@ -155,6 +158,8 @@ $secondaryColor: #3168ff;
         background-color: #777777;
         height: 233px;
         width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;
         p{
             font-family: 'SourceSansPro-Semibold';
             padding-top: 20px;
