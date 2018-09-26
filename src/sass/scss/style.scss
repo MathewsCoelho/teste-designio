@@ -169,6 +169,12 @@ $secondaryColor: #3168ff;
             font-size: 1.5em ; 
         }
     }
+
+    @media only screen and (max-width: 742px) {
+        .text-about{
+            text-align: center;
+        }
+    }
 }
 
 .contact{
