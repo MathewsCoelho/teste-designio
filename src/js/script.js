@@ -6,7 +6,6 @@ function initMap() {
 }
 
 $(window).scroll(function() {
-  console.log('oi');
   if ($(this).scrollTop() > 100) {
               $('.menu').addClass('fixed');
               $('.logo').addClass('logo-min');
@@ -15,4 +14,22 @@ $(window).scroll(function() {
           $('.logo').removeClass('logo-min');
       }
 });
+
+$('.menu a[href^="#"]').on('click', function(e) {
+  let scroll;
+	e.preventDefault();
+	let id = $(this).attr('href'),
+      targetOffset = $(id).offset().top;
+      if(id == '#presentation'){
+        scroll = 190;
+      }
+      else{
+        scroll = 100;
+      }
+	$('html, body').animate({ 
+		scrollTop: targetOffset - scroll
+	}, 500);
+});
+
+
 

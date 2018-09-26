@@ -827,14 +827,15 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 footer {
   width: 100%;
   margin: 0 auto;
-  height: 60px;
+  height: auto;
   background-color: #3168ff;
 }
 
 /* line 278, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 footer p {
   text-align: center;
-  padding-top: 17px;
+  padding-top: 22px;
+  padding-bottom: 22px;
   color: #ffffff;
   font-size: 0.875em;
   font-family: 'Roboto-Light';

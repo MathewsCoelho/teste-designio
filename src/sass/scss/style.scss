@@ -273,11 +273,12 @@ $secondaryColor: #3168ff;
 footer{
     width: 100%;
     margin: 0 auto;
-    height: 60px;
+    height: auto;
     background-color:$secondaryColor;
     p{
         text-align: center;
-        padding-top: 17px;
+        padding-top: 22px;
+        padding-bottom: 22px;
         color: $primaryColor;
         font-size: 0.875em;
         font-family: 'Roboto-Light';
