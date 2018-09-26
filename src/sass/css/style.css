@@ -547,21 +547,30 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 /* line 50, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .menu nav ul li:last-child {
   padding-left: 4px;
+  display: flex;
 }
 
 @media only screen and (max-width: 1024px) {
-  /* line 57, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+  /* line 58, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+  .menu ul {
+    flex-direction: column;
+  }
+  /* line 61, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
   .menu nav {
     display: none;
   }
-  /* line 60, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+  /* line 64, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+  .menu .fixed {
+    background: none;
+  }
+  /* line 67, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
   .menu .logo {
     height: 60px;
     margin-right: 0;
   }
 }
 
-/* line 68, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 74, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .fixed {
   position: fixed;
   padding: 10px;
@@ -569,25 +578,25 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   background-color: black;
 }
 
-/* line 75, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 81, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .banner {
   max-width: 100%;
   max-height: 650px;
   padding: 0;
 }
 
-/* line 79, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 85, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .banner img {
   width: 100%;
   max-height: 650px;
 }
 
-/* line 86, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 92, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .presentation .col-sm-8 {
   margin: 0 auto;
 }
 
-/* line 89, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 95, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .presentation p {
   text-transform: uppercase;
   position: relative;
@@ -602,7 +611,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   font-family: 'SourceSansPro-Semibold';
 }
 
-/* line 103, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 109, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .presentation .bg-video {
   padding-bottom: 56.25%;
   position: relative;
@@ -617,7 +626,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   background-color: #686868;
 }
 
-/* line 117, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 123, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .presentation .bg-video iframe {
   position: absolute;
   top: 0;
@@ -626,12 +635,12 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   height: 100%;
 }
 
-/* line 125, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 131, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .about {
   margin-top: 37px;
 }
 
-/* line 129, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 135, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .about .text-about h2 {
   font-size: 1.5em;
   margin-bottom: 30px;
@@ -639,7 +648,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   font-family: 'SourceSansPro-Semibold';
 }
 
-/* line 135, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 141, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .about .text-about p {
   width: auto;
   color: #707070;
@@ -647,17 +656,17 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   font-family: 'Roboto-Light';
 }
 
-/* line 143, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
-.about .lemon-text p {
-  width: 190px;
-}
-
-/* line 146, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
-.about .eye-text p {
-  width: 150px;
-}
-
 /* line 149, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.about .lemon-text p {
+  width: auto;
+}
+
+/* line 152, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.about .eye-text p {
+  width: auto;
+}
+
+/* line 155, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .about i {
   width: 100%;
   text-align: center;
@@ -667,16 +676,15 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   margin-top: 40px;
 }
 
-/* line 157, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 163, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .about .lemon-text, .about .eye-text {
   background-color: #777777;
   height: 233px;
   width: 100%;
   margin-top: 15px;
-  margin-bottom: 15px;
 }
 
-/* line 163, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 168, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .about .lemon-text p, .about .eye-text p {
   font-family: 'SourceSansPro-Semibold';
   padding-top: 20px;
@@ -686,26 +694,35 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   font-size: 1.5em;
 }
 
+/* line 178, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.about .eye-text {
+  margin-bottom: 15px;
+}
+
 @media only screen and (max-width: 742px) {
-  /* line 174, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+  /* line 183, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
   .about .text-about {
     text-align: center;
   }
 }
 
-/* line 180, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 189, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .contact {
   margin-top: 60px;
   margin-bottom: 60px;
 }
 
-/* line 183, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 192, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .contact .col-sm-7 {
   height: 689px;
-  background-color: grey;
 }
 
-/* line 187, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 195, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.contact .col-sm-5 {
+  margin-bottom: 20px;
+}
+
+/* line 198, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .contact h1 {
   text-transform: uppercase;
   font-size: 2.25em;
@@ -714,7 +731,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   margin-bottom: 80px;
 }
 
-/* line 194, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 205, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .contact p {
   font-size: 1.125em;
   font-family: 'Roboto-Light';
@@ -723,12 +740,12 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   width: auto;
 }
 
-/* line 201, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 212, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .contact .contact-form {
   height: 470px;
 }
 
-/* line 203, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 214, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .contact .contact-form label {
   position: relative;
   font-size: 0.875em;
@@ -736,7 +753,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   font-family: 'Roboto-Light';
 }
 
-/* line 209, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 220, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .contact .contact-form input {
   outline: none;
   color: #707070;
@@ -747,25 +764,25 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   margin-bottom: 25px;
 }
 
-/* line 218, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 229, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .contact .contact-form .g-recaptcha {
   margin-top: 5px;
   margin-bottom: 30px;
 }
 
-/* line 222, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 233, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .contact .contact-form input {
   font-size: 1.125em;
   font-family: 'Roboto-Light';
 }
 
-/* line 226, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 237, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .contact .contact-form input:focus {
   box-shadow: none;
   border-bottom: 2px solid #3168ff;
 }
 
-/* line 230, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 241, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .contact .contact-form .submit {
   text-transform: uppercase;
   color: #ffffff;
@@ -780,35 +797,41 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   font-family: 'SourceSansPro-Semibold';
 }
 
-/* line 243, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 254, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .contact .contact-form ::-webkit-input-placeholder {
   color: #656565;
 }
 
-/* line 246, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 257, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .contact .contact-form :moz-placeholder {
   color: #656565;
 }
 
-/* line 249, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 260, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .contact .contact-form ::-moz-placeholder {
   color: #656565;
 }
 
-/* line 252, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 263, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 .contact .contact-form ::-ms-input-placeholder {
   color: #656565;
 }
 
-/* line 258, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 267, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+.contact .map {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 273, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 footer {
   width: 100%;
   margin: 0 auto;
-  height: 50px;
+  height: 60px;
   background-color: #3168ff;
 }
 
-/* line 263, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
+/* line 278, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/style.scss */
 footer p {
   text-align: center;
   padding-top: 17px;

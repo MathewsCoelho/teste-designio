@@ -1,19 +1,9 @@
 function initMap() {
-    var myLatLng = {
-        lat: -25.363, lng: 131.044
-    };
-
-  var map = new google.maps.Map(document.getElementById('map'), {
-    center: myLatLng,
-    zoom: 4
-  });
-
-var marker = new google.maps.Marker({
-    map: map,
-    position: myLatLng,
-    title: 'Hello World!'
-  });
-} 
+  var designio = {lat: -31.773446,lng:  -52.339058};
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 18, center: designio, title: 'Matheus'});
+  var marker = new google.maps.Marker({position: designio, map: map});
+}
 
 $(window).scroll(function() {
   console.log('oi');
@@ -26,7 +16,3 @@ $(window).scroll(function() {
       }
 });
 
-
-document.getElementById('submit').onclick = function(){
-
-};
