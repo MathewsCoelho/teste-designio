@@ -19,13 +19,8 @@ $('.menu a[href^="#"]').on('click', function(e) {
   let scroll;
 	e.preventDefault();
 	let id = $(this).attr('href'),
-      targetOffset = $(id).offset().top;
-      if(id == '#presentation'){
-        scroll = 190;
-      }
-      else{
-        scroll = 100;
-      }
+  targetOffset = $(id).offset().top;
+  scroll = 100;
 	$('html, body').animate({ 
 		scrollTop: targetOffset - scroll
 	}, 500);

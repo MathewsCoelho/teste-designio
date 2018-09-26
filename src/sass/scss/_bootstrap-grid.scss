@@ -8,20 +8,17 @@
   width: device-width;
 }
 
-/* line 11, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 html {
   box-sizing: border-box;
   -ms-overflow-style: scrollbar;
 }
 
-/* line 16, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
 
-/* line 22, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .container {
   width: 100%;
   padding-right: 15px;
@@ -31,34 +28,29 @@ html {
 }
 
 @media (min-width: 576px) {
-  /* line 31, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .container {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 37, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .container {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 43, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .container {
     max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 49, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .container {
     max-width: 1140px;
   }
 }
 
-/* line 54, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .container-fluid {
   width: 100%;
   padding-right: 15px;
@@ -67,7 +59,6 @@ html {
   margin-left: auto;
 }
 
-/* line 62, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -78,20 +69,17 @@ html {
   margin-left: -15px;
 }
 
-/* line 72, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
 }
 
-/* line 77, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .no-gutters > .col,
 .no-gutters > [class*="col-"] {
   padding-right: 0;
   padding-left: 0;
 }
 
-/* line 83, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
 .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
@@ -105,7 +93,6 @@ html {
   padding-left: 15px;
 }
 
-/* line 96, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .col {
   -ms-flex-preferred-size: 0;
   flex-basis: 0;
@@ -115,7 +102,6 @@ html {
   max-width: 100%;
 }
 
-/* line 105, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .col-auto {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
@@ -124,7 +110,6 @@ html {
   max-width: none;
 }
 
-/* line 113, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .col-1 {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 8.333333%;
@@ -132,7 +117,6 @@ html {
   max-width: 8.333333%;
 }
 
-/* line 120, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .col-2 {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 16.666667%;
@@ -140,7 +124,6 @@ html {
   max-width: 16.666667%;
 }
 
-/* line 127, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .col-3 {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 25%;
@@ -148,7 +131,6 @@ html {
   max-width: 25%;
 }
 
-/* line 134, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .col-4 {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 33.333333%;
@@ -156,7 +138,6 @@ html {
   max-width: 33.333333%;
 }
 
-/* line 141, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .col-5 {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 41.666667%;
@@ -164,7 +145,6 @@ html {
   max-width: 41.666667%;
 }
 
-/* line 148, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .col-6 {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 50%;
@@ -172,7 +152,6 @@ html {
   max-width: 50%;
 }
 
-/* line 155, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .col-7 {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 58.333333%;
@@ -180,7 +159,6 @@ html {
   max-width: 58.333333%;
 }
 
-/* line 162, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .col-8 {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 66.666667%;
@@ -188,7 +166,6 @@ html {
   max-width: 66.666667%;
 }
 
-/* line 169, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .col-9 {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 75%;
@@ -196,7 +173,6 @@ html {
   max-width: 75%;
 }
 
-/* line 176, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .col-10 {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 83.333333%;
@@ -204,7 +180,6 @@ html {
   max-width: 83.333333%;
 }
 
-/* line 183, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .col-11 {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 91.666667%;
@@ -212,7 +187,6 @@ html {
   max-width: 91.666667%;
 }
 
-/* line 190, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .col-12 {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 100%;
@@ -220,168 +194,141 @@ html {
   max-width: 100%;
 }
 
-/* line 197, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .order-first {
   -webkit-box-ordinal-group: 0;
   -ms-flex-order: -1;
   order: -1;
 }
 
-/* line 203, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .order-last {
   -webkit-box-ordinal-group: 14;
   -ms-flex-order: 13;
   order: 13;
 }
 
-/* line 209, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .order-0 {
   -webkit-box-ordinal-group: 1;
   -ms-flex-order: 0;
   order: 0;
 }
 
-/* line 215, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .order-1 {
   -webkit-box-ordinal-group: 2;
   -ms-flex-order: 1;
   order: 1;
 }
 
-/* line 221, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .order-2 {
   -webkit-box-ordinal-group: 3;
   -ms-flex-order: 2;
   order: 2;
 }
 
-/* line 227, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .order-3 {
   -webkit-box-ordinal-group: 4;
   -ms-flex-order: 3;
   order: 3;
 }
 
-/* line 233, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .order-4 {
   -webkit-box-ordinal-group: 5;
   -ms-flex-order: 4;
   order: 4;
 }
 
-/* line 239, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .order-5 {
   -webkit-box-ordinal-group: 6;
   -ms-flex-order: 5;
   order: 5;
 }
 
-/* line 245, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .order-6 {
   -webkit-box-ordinal-group: 7;
   -ms-flex-order: 6;
   order: 6;
 }
 
-/* line 251, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .order-7 {
   -webkit-box-ordinal-group: 8;
   -ms-flex-order: 7;
   order: 7;
 }
 
-/* line 257, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .order-8 {
   -webkit-box-ordinal-group: 9;
   -ms-flex-order: 8;
   order: 8;
 }
 
-/* line 263, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .order-9 {
   -webkit-box-ordinal-group: 10;
   -ms-flex-order: 9;
   order: 9;
 }
 
-/* line 269, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .order-10 {
   -webkit-box-ordinal-group: 11;
   -ms-flex-order: 10;
   order: 10;
 }
 
-/* line 275, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .order-11 {
   -webkit-box-ordinal-group: 12;
   -ms-flex-order: 11;
   order: 11;
 }
 
-/* line 281, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .order-12 {
   -webkit-box-ordinal-group: 13;
   -ms-flex-order: 12;
   order: 12;
 }
 
-/* line 287, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .offset-1 {
   margin-left: 8.333333%;
 }
 
-/* line 291, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .offset-2 {
   margin-left: 16.666667%;
 }
 
-/* line 295, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .offset-3 {
   margin-left: 25%;
 }
 
-/* line 299, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .offset-4 {
   margin-left: 33.333333%;
 }
 
-/* line 303, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .offset-5 {
   margin-left: 41.666667%;
 }
 
-/* line 307, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .offset-6 {
   margin-left: 50%;
 }
 
-/* line 311, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .offset-7 {
   margin-left: 58.333333%;
 }
 
-/* line 315, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .offset-8 {
   margin-left: 66.666667%;
 }
 
-/* line 319, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .offset-9 {
   margin-left: 75%;
 }
 
-/* line 323, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .offset-10 {
   margin-left: 83.333333%;
 }
 
-/* line 327, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .offset-11 {
   margin-left: 91.666667%;
 }
 
 @media (min-width: 576px) {
-  /* line 332, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-sm {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -390,7 +337,6 @@ html {
     flex-grow: 1;
     max-width: 100%;
   }
-  /* line 340, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-sm-auto {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
@@ -398,232 +344,192 @@ html {
     width: auto;
     max-width: none;
   }
-  /* line 347, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-sm-1 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 8.333333%;
     flex: 0 0 8.333333%;
     max-width: 8.333333%;
   }
-  /* line 353, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-sm-2 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 16.666667%;
     flex: 0 0 16.666667%;
     max-width: 16.666667%;
   }
-  /* line 359, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-sm-3 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%;
   }
-  /* line 365, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-sm-4 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
-  /* line 371, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-sm-5 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 41.666667%;
     flex: 0 0 41.666667%;
     max-width: 41.666667%;
   }
-  /* line 377, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-sm-6 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
   }
-  /* line 383, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-sm-7 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 58.333333%;
     flex: 0 0 58.333333%;
     max-width: 58.333333%;
   }
-  /* line 389, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-sm-8 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 66.666667%;
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
   }
-  /* line 395, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-sm-9 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     max-width: 75%;
   }
-  /* line 401, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-sm-10 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 83.333333%;
     flex: 0 0 83.333333%;
     max-width: 83.333333%;
   }
-  /* line 407, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-sm-11 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 91.666667%;
     flex: 0 0 91.666667%;
     max-width: 91.666667%;
   }
-  /* line 413, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-sm-12 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
-  /* line 419, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-sm-first {
     -webkit-box-ordinal-group: 0;
     -ms-flex-order: -1;
     order: -1;
   }
-  /* line 424, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-sm-last {
     -webkit-box-ordinal-group: 14;
     -ms-flex-order: 13;
     order: 13;
   }
-  /* line 429, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-sm-0 {
     -webkit-box-ordinal-group: 1;
     -ms-flex-order: 0;
     order: 0;
   }
-  /* line 434, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-sm-1 {
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
   }
-  /* line 439, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-sm-2 {
     -webkit-box-ordinal-group: 3;
     -ms-flex-order: 2;
     order: 2;
   }
-  /* line 444, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-sm-3 {
     -webkit-box-ordinal-group: 4;
     -ms-flex-order: 3;
     order: 3;
   }
-  /* line 449, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-sm-4 {
     -webkit-box-ordinal-group: 5;
     -ms-flex-order: 4;
     order: 4;
   }
-  /* line 454, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-sm-5 {
     -webkit-box-ordinal-group: 6;
     -ms-flex-order: 5;
     order: 5;
   }
-  /* line 459, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-sm-6 {
     -webkit-box-ordinal-group: 7;
     -ms-flex-order: 6;
     order: 6;
   }
-  /* line 464, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-sm-7 {
     -webkit-box-ordinal-group: 8;
     -ms-flex-order: 7;
     order: 7;
   }
-  /* line 469, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-sm-8 {
     -webkit-box-ordinal-group: 9;
     -ms-flex-order: 8;
     order: 8;
   }
-  /* line 474, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-sm-9 {
     -webkit-box-ordinal-group: 10;
     -ms-flex-order: 9;
     order: 9;
   }
-  /* line 479, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-sm-10 {
     -webkit-box-ordinal-group: 11;
     -ms-flex-order: 10;
     order: 10;
   }
-  /* line 484, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-sm-11 {
     -webkit-box-ordinal-group: 12;
     -ms-flex-order: 11;
     order: 11;
   }
-  /* line 489, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-sm-12 {
     -webkit-box-ordinal-group: 13;
     -ms-flex-order: 12;
     order: 12;
   }
-  /* line 494, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-sm-0 {
     margin-left: 0;
   }
-  /* line 497, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-sm-1 {
     margin-left: 8.333333%;
   }
-  /* line 500, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-sm-2 {
     margin-left: 16.666667%;
   }
-  /* line 503, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-sm-3 {
     margin-left: 25%;
   }
-  /* line 506, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-sm-4 {
     margin-left: 33.333333%;
   }
-  /* line 509, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-sm-5 {
     margin-left: 41.666667%;
   }
-  /* line 512, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-sm-6 {
     margin-left: 50%;
   }
-  /* line 515, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-sm-7 {
     margin-left: 58.333333%;
   }
-  /* line 518, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-sm-8 {
     margin-left: 66.666667%;
   }
-  /* line 521, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-sm-9 {
     margin-left: 75%;
   }
-  /* line 524, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-sm-10 {
     margin-left: 83.333333%;
   }
-  /* line 527, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-sm-11 {
     margin-left: 91.666667%;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 533, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-md {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -632,7 +538,6 @@ html {
     flex-grow: 1;
     max-width: 100%;
   }
-  /* line 541, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-md-auto {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
@@ -640,232 +545,192 @@ html {
     width: auto;
     max-width: none;
   }
-  /* line 548, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-md-1 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 8.333333%;
     flex: 0 0 8.333333%;
     max-width: 8.333333%;
   }
-  /* line 554, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-md-2 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 16.666667%;
     flex: 0 0 16.666667%;
     max-width: 16.666667%;
   }
-  /* line 560, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-md-3 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%;
   }
-  /* line 566, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-md-4 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
-  /* line 572, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-md-5 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 41.666667%;
     flex: 0 0 41.666667%;
     max-width: 41.666667%;
   }
-  /* line 578, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-md-6 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
   }
-  /* line 584, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-md-7 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 58.333333%;
     flex: 0 0 58.333333%;
     max-width: 58.333333%;
   }
-  /* line 590, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-md-8 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 66.666667%;
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
   }
-  /* line 596, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-md-9 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     max-width: 75%;
   }
-  /* line 602, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-md-10 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 83.333333%;
     flex: 0 0 83.333333%;
     max-width: 83.333333%;
   }
-  /* line 608, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-md-11 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 91.666667%;
     flex: 0 0 91.666667%;
     max-width: 91.666667%;
   }
-  /* line 614, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-md-12 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
-  /* line 620, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-md-first {
     -webkit-box-ordinal-group: 0;
     -ms-flex-order: -1;
     order: -1;
   }
-  /* line 625, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-md-last {
     -webkit-box-ordinal-group: 14;
     -ms-flex-order: 13;
     order: 13;
   }
-  /* line 630, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-md-0 {
     -webkit-box-ordinal-group: 1;
     -ms-flex-order: 0;
     order: 0;
   }
-  /* line 635, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-md-1 {
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
   }
-  /* line 640, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-md-2 {
     -webkit-box-ordinal-group: 3;
     -ms-flex-order: 2;
     order: 2;
   }
-  /* line 645, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-md-3 {
     -webkit-box-ordinal-group: 4;
     -ms-flex-order: 3;
     order: 3;
   }
-  /* line 650, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-md-4 {
     -webkit-box-ordinal-group: 5;
     -ms-flex-order: 4;
     order: 4;
   }
-  /* line 655, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-md-5 {
     -webkit-box-ordinal-group: 6;
     -ms-flex-order: 5;
     order: 5;
   }
-  /* line 660, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-md-6 {
     -webkit-box-ordinal-group: 7;
     -ms-flex-order: 6;
     order: 6;
   }
-  /* line 665, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-md-7 {
     -webkit-box-ordinal-group: 8;
     -ms-flex-order: 7;
     order: 7;
   }
-  /* line 670, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-md-8 {
     -webkit-box-ordinal-group: 9;
     -ms-flex-order: 8;
     order: 8;
   }
-  /* line 675, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-md-9 {
     -webkit-box-ordinal-group: 10;
     -ms-flex-order: 9;
     order: 9;
   }
-  /* line 680, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-md-10 {
     -webkit-box-ordinal-group: 11;
     -ms-flex-order: 10;
     order: 10;
   }
-  /* line 685, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-md-11 {
     -webkit-box-ordinal-group: 12;
     -ms-flex-order: 11;
     order: 11;
   }
-  /* line 690, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-md-12 {
     -webkit-box-ordinal-group: 13;
     -ms-flex-order: 12;
     order: 12;
   }
-  /* line 695, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-md-0 {
     margin-left: 0;
   }
-  /* line 698, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-md-1 {
     margin-left: 8.333333%;
   }
-  /* line 701, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-md-2 {
     margin-left: 16.666667%;
   }
-  /* line 704, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-md-3 {
     margin-left: 25%;
   }
-  /* line 707, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-md-4 {
     margin-left: 33.333333%;
   }
-  /* line 710, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-md-5 {
     margin-left: 41.666667%;
   }
-  /* line 713, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-md-6 {
     margin-left: 50%;
   }
-  /* line 716, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-md-7 {
     margin-left: 58.333333%;
   }
-  /* line 719, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-md-8 {
     margin-left: 66.666667%;
   }
-  /* line 722, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-md-9 {
     margin-left: 75%;
   }
-  /* line 725, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-md-10 {
     margin-left: 83.333333%;
   }
-  /* line 728, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-md-11 {
     margin-left: 91.666667%;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 734, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-lg {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -874,7 +739,6 @@ html {
     flex-grow: 1;
     max-width: 100%;
   }
-  /* line 742, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-lg-auto {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
@@ -882,232 +746,192 @@ html {
     width: auto;
     max-width: none;
   }
-  /* line 749, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-lg-1 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 8.333333%;
     flex: 0 0 8.333333%;
     max-width: 8.333333%;
   }
-  /* line 755, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-lg-2 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 16.666667%;
     flex: 0 0 16.666667%;
     max-width: 16.666667%;
   }
-  /* line 761, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-lg-3 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%;
   }
-  /* line 767, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-lg-4 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
-  /* line 773, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-lg-5 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 41.666667%;
     flex: 0 0 41.666667%;
     max-width: 41.666667%;
   }
-  /* line 779, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-lg-6 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
   }
-  /* line 785, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-lg-7 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 58.333333%;
     flex: 0 0 58.333333%;
     max-width: 58.333333%;
   }
-  /* line 791, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-lg-8 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 66.666667%;
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
   }
-  /* line 797, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-lg-9 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     max-width: 75%;
   }
-  /* line 803, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-lg-10 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 83.333333%;
     flex: 0 0 83.333333%;
     max-width: 83.333333%;
   }
-  /* line 809, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-lg-11 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 91.666667%;
     flex: 0 0 91.666667%;
     max-width: 91.666667%;
   }
-  /* line 815, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-lg-12 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
-  /* line 821, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-lg-first {
     -webkit-box-ordinal-group: 0;
     -ms-flex-order: -1;
     order: -1;
   }
-  /* line 826, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-lg-last {
     -webkit-box-ordinal-group: 14;
     -ms-flex-order: 13;
     order: 13;
   }
-  /* line 831, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-lg-0 {
     -webkit-box-ordinal-group: 1;
     -ms-flex-order: 0;
     order: 0;
   }
-  /* line 836, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-lg-1 {
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
   }
-  /* line 841, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-lg-2 {
     -webkit-box-ordinal-group: 3;
     -ms-flex-order: 2;
     order: 2;
   }
-  /* line 846, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-lg-3 {
     -webkit-box-ordinal-group: 4;
     -ms-flex-order: 3;
     order: 3;
   }
-  /* line 851, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-lg-4 {
     -webkit-box-ordinal-group: 5;
     -ms-flex-order: 4;
     order: 4;
   }
-  /* line 856, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-lg-5 {
     -webkit-box-ordinal-group: 6;
     -ms-flex-order: 5;
     order: 5;
   }
-  /* line 861, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-lg-6 {
     -webkit-box-ordinal-group: 7;
     -ms-flex-order: 6;
     order: 6;
   }
-  /* line 866, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-lg-7 {
     -webkit-box-ordinal-group: 8;
     -ms-flex-order: 7;
     order: 7;
   }
-  /* line 871, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-lg-8 {
     -webkit-box-ordinal-group: 9;
     -ms-flex-order: 8;
     order: 8;
   }
-  /* line 876, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-lg-9 {
     -webkit-box-ordinal-group: 10;
     -ms-flex-order: 9;
     order: 9;
   }
-  /* line 881, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-lg-10 {
     -webkit-box-ordinal-group: 11;
     -ms-flex-order: 10;
     order: 10;
   }
-  /* line 886, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-lg-11 {
     -webkit-box-ordinal-group: 12;
     -ms-flex-order: 11;
     order: 11;
   }
-  /* line 891, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-lg-12 {
     -webkit-box-ordinal-group: 13;
     -ms-flex-order: 12;
     order: 12;
   }
-  /* line 896, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-lg-0 {
     margin-left: 0;
   }
-  /* line 899, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-lg-1 {
     margin-left: 8.333333%;
   }
-  /* line 902, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-lg-2 {
     margin-left: 16.666667%;
   }
-  /* line 905, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-lg-3 {
     margin-left: 25%;
   }
-  /* line 908, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-lg-4 {
     margin-left: 33.333333%;
   }
-  /* line 911, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-lg-5 {
     margin-left: 41.666667%;
   }
-  /* line 914, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-lg-6 {
     margin-left: 50%;
   }
-  /* line 917, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-lg-7 {
     margin-left: 58.333333%;
   }
-  /* line 920, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-lg-8 {
     margin-left: 66.666667%;
   }
-  /* line 923, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-lg-9 {
     margin-left: 75%;
   }
-  /* line 926, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-lg-10 {
     margin-left: 83.333333%;
   }
-  /* line 929, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-lg-11 {
     margin-left: 91.666667%;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 935, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-xl {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -1116,7 +940,6 @@ html {
     flex-grow: 1;
     max-width: 100%;
   }
-  /* line 943, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-xl-auto {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
@@ -1124,273 +947,225 @@ html {
     width: auto;
     max-width: none;
   }
-  /* line 950, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-xl-1 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 8.333333%;
     flex: 0 0 8.333333%;
     max-width: 8.333333%;
   }
-  /* line 956, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-xl-2 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 16.666667%;
     flex: 0 0 16.666667%;
     max-width: 16.666667%;
   }
-  /* line 962, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-xl-3 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%;
   }
-  /* line 968, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-xl-4 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
-  /* line 974, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-xl-5 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 41.666667%;
     flex: 0 0 41.666667%;
     max-width: 41.666667%;
   }
-  /* line 980, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-xl-6 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
   }
-  /* line 986, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-xl-7 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 58.333333%;
     flex: 0 0 58.333333%;
     max-width: 58.333333%;
   }
-  /* line 992, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-xl-8 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 66.666667%;
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
   }
-  /* line 998, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-xl-9 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     max-width: 75%;
   }
-  /* line 1004, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-xl-10 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 83.333333%;
     flex: 0 0 83.333333%;
     max-width: 83.333333%;
   }
-  /* line 1010, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-xl-11 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 91.666667%;
     flex: 0 0 91.666667%;
     max-width: 91.666667%;
   }
-  /* line 1016, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .col-xl-12 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
-  /* line 1022, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-xl-first {
     -webkit-box-ordinal-group: 0;
     -ms-flex-order: -1;
     order: -1;
   }
-  /* line 1027, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-xl-last {
     -webkit-box-ordinal-group: 14;
     -ms-flex-order: 13;
     order: 13;
   }
-  /* line 1032, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-xl-0 {
     -webkit-box-ordinal-group: 1;
     -ms-flex-order: 0;
     order: 0;
   }
-  /* line 1037, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-xl-1 {
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
   }
-  /* line 1042, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-xl-2 {
     -webkit-box-ordinal-group: 3;
     -ms-flex-order: 2;
     order: 2;
   }
-  /* line 1047, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-xl-3 {
     -webkit-box-ordinal-group: 4;
     -ms-flex-order: 3;
     order: 3;
   }
-  /* line 1052, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-xl-4 {
     -webkit-box-ordinal-group: 5;
     -ms-flex-order: 4;
     order: 4;
   }
-  /* line 1057, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-xl-5 {
     -webkit-box-ordinal-group: 6;
     -ms-flex-order: 5;
     order: 5;
   }
-  /* line 1062, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-xl-6 {
     -webkit-box-ordinal-group: 7;
     -ms-flex-order: 6;
     order: 6;
   }
-  /* line 1067, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-xl-7 {
     -webkit-box-ordinal-group: 8;
     -ms-flex-order: 7;
     order: 7;
   }
-  /* line 1072, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-xl-8 {
     -webkit-box-ordinal-group: 9;
     -ms-flex-order: 8;
     order: 8;
   }
-  /* line 1077, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-xl-9 {
     -webkit-box-ordinal-group: 10;
     -ms-flex-order: 9;
     order: 9;
   }
-  /* line 1082, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-xl-10 {
     -webkit-box-ordinal-group: 11;
     -ms-flex-order: 10;
     order: 10;
   }
-  /* line 1087, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-xl-11 {
     -webkit-box-ordinal-group: 12;
     -ms-flex-order: 11;
     order: 11;
   }
-  /* line 1092, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .order-xl-12 {
     -webkit-box-ordinal-group: 13;
     -ms-flex-order: 12;
     order: 12;
   }
-  /* line 1097, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-xl-0 {
     margin-left: 0;
   }
-  /* line 1100, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-xl-1 {
     margin-left: 8.333333%;
   }
-  /* line 1103, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-xl-2 {
     margin-left: 16.666667%;
   }
-  /* line 1106, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-xl-3 {
     margin-left: 25%;
   }
-  /* line 1109, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-xl-4 {
     margin-left: 33.333333%;
   }
-  /* line 1112, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-xl-5 {
     margin-left: 41.666667%;
   }
-  /* line 1115, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-xl-6 {
     margin-left: 50%;
   }
-  /* line 1118, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-xl-7 {
     margin-left: 58.333333%;
   }
-  /* line 1121, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-xl-8 {
     margin-left: 66.666667%;
   }
-  /* line 1124, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-xl-9 {
     margin-left: 75%;
   }
-  /* line 1127, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-xl-10 {
     margin-left: 83.333333%;
   }
-  /* line 1130, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .offset-xl-11 {
     margin-left: 91.666667%;
   }
 }
 
-/* line 1135, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .d-none {
   display: none !important;
 }
 
-/* line 1139, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .d-inline {
   display: inline !important;
 }
 
-/* line 1143, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .d-inline-block {
   display: inline-block !important;
 }
 
-/* line 1147, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .d-block {
   display: block !important;
 }
 
-/* line 1151, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .d-table {
   display: table !important;
 }
 
-/* line 1155, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .d-table-row {
   display: table-row !important;
 }
 
-/* line 1159, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .d-table-cell {
   display: table-cell !important;
 }
 
-/* line 1163, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .d-flex {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
 }
 
-/* line 1169, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .d-inline-flex {
   display: -webkit-inline-box !important;
   display: -ms-inline-flexbox !important;
@@ -1398,41 +1173,32 @@ html {
 }
 
 @media (min-width: 576px) {
-  /* line 1176, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-sm-none {
     display: none !important;
   }
-  /* line 1179, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-sm-inline {
     display: inline !important;
   }
-  /* line 1182, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-sm-inline-block {
     display: inline-block !important;
   }
-  /* line 1185, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-sm-block {
     display: block !important;
   }
-  /* line 1188, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-sm-table {
     display: table !important;
   }
-  /* line 1191, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-sm-table-row {
     display: table-row !important;
   }
-  /* line 1194, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-sm-table-cell {
     display: table-cell !important;
   }
-  /* line 1197, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-sm-flex {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
   }
-  /* line 1202, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-sm-inline-flex {
     display: -webkit-inline-box !important;
     display: -ms-inline-flexbox !important;
@@ -1441,41 +1207,32 @@ html {
 }
 
 @media (min-width: 768px) {
-  /* line 1210, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-md-none {
     display: none !important;
   }
-  /* line 1213, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-md-inline {
     display: inline !important;
   }
-  /* line 1216, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-md-inline-block {
     display: inline-block !important;
   }
-  /* line 1219, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-md-block {
     display: block !important;
   }
-  /* line 1222, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-md-table {
     display: table !important;
   }
-  /* line 1225, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-md-table-row {
     display: table-row !important;
   }
-  /* line 1228, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-md-table-cell {
     display: table-cell !important;
   }
-  /* line 1231, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-md-flex {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
   }
-  /* line 1236, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-md-inline-flex {
     display: -webkit-inline-box !important;
     display: -ms-inline-flexbox !important;
@@ -1484,41 +1241,32 @@ html {
 }
 
 @media (min-width: 992px) {
-  /* line 1244, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-lg-none {
     display: none !important;
   }
-  /* line 1247, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-lg-inline {
     display: inline !important;
   }
-  /* line 1250, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-lg-inline-block {
     display: inline-block !important;
   }
-  /* line 1253, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-lg-block {
     display: block !important;
   }
-  /* line 1256, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-lg-table {
     display: table !important;
   }
-  /* line 1259, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-lg-table-row {
     display: table-row !important;
   }
-  /* line 1262, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-lg-table-cell {
     display: table-cell !important;
   }
-  /* line 1265, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-lg-flex {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
   }
-  /* line 1270, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-lg-inline-flex {
     display: -webkit-inline-box !important;
     display: -ms-inline-flexbox !important;
@@ -1527,41 +1275,32 @@ html {
 }
 
 @media (min-width: 1200px) {
-  /* line 1278, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-xl-none {
     display: none !important;
   }
-  /* line 1281, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-xl-inline {
     display: inline !important;
   }
-  /* line 1284, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-xl-inline-block {
     display: inline-block !important;
   }
-  /* line 1287, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-xl-block {
     display: block !important;
   }
-  /* line 1290, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-xl-table {
     display: table !important;
   }
-  /* line 1293, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-xl-table-row {
     display: table-row !important;
   }
-  /* line 1296, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-xl-table-cell {
     display: table-cell !important;
   }
-  /* line 1299, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-xl-flex {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
   }
-  /* line 1304, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-xl-inline-flex {
     display: -webkit-inline-box !important;
     display: -ms-inline-flexbox !important;
@@ -1570,41 +1309,32 @@ html {
 }
 
 @media print {
-  /* line 1312, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-print-none {
     display: none !important;
   }
-  /* line 1315, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-print-inline {
     display: inline !important;
   }
-  /* line 1318, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-print-inline-block {
     display: inline-block !important;
   }
-  /* line 1321, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-print-block {
     display: block !important;
   }
-  /* line 1324, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-print-table {
     display: table !important;
   }
-  /* line 1327, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-print-table-row {
     display: table-row !important;
   }
-  /* line 1330, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-print-table-cell {
     display: table-cell !important;
   }
-  /* line 1333, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-print-flex {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
   }
-  /* line 1338, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .d-print-inline-flex {
     display: -webkit-inline-box !important;
     display: -ms-inline-flexbox !important;
@@ -1612,7 +1342,6 @@ html {
   }
 }
 
-/* line 1345, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .flex-row {
   -webkit-box-orient: horizontal !important;
   -webkit-box-direction: normal !important;
@@ -1620,7 +1349,6 @@ html {
   flex-direction: row !important;
 }
 
-/* line 1352, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .flex-column {
   -webkit-box-orient: vertical !important;
   -webkit-box-direction: normal !important;
@@ -1628,7 +1356,6 @@ html {
   flex-direction: column !important;
 }
 
-/* line 1359, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .flex-row-reverse {
   -webkit-box-orient: horizontal !important;
   -webkit-box-direction: reverse !important;
@@ -1636,7 +1363,6 @@ html {
   flex-direction: row-reverse !important;
 }
 
-/* line 1366, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .flex-column-reverse {
   -webkit-box-orient: vertical !important;
   -webkit-box-direction: reverse !important;
@@ -1644,324 +1370,270 @@ html {
   flex-direction: column-reverse !important;
 }
 
-/* line 1373, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .flex-wrap {
   -ms-flex-wrap: wrap !important;
   flex-wrap: wrap !important;
 }
 
-/* line 1378, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .flex-nowrap {
   -ms-flex-wrap: nowrap !important;
   flex-wrap: nowrap !important;
 }
 
-/* line 1383, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .flex-wrap-reverse {
   -ms-flex-wrap: wrap-reverse !important;
   flex-wrap: wrap-reverse !important;
 }
 
-/* line 1388, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .justify-content-start {
   -webkit-box-pack: start !important;
   -ms-flex-pack: start !important;
   justify-content: flex-start !important;
 }
 
-/* line 1394, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .justify-content-end {
   -webkit-box-pack: end !important;
   -ms-flex-pack: end !important;
   justify-content: flex-end !important;
 }
 
-/* line 1400, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .justify-content-center {
   -webkit-box-pack: center !important;
   -ms-flex-pack: center !important;
   justify-content: center !important;
 }
 
-/* line 1406, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .justify-content-between {
   -webkit-box-pack: justify !important;
   -ms-flex-pack: justify !important;
   justify-content: space-between !important;
 }
 
-/* line 1412, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .justify-content-around {
   -ms-flex-pack: distribute !important;
   justify-content: space-around !important;
 }
 
-/* line 1417, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .align-items-start {
   -webkit-box-align: start !important;
   -ms-flex-align: start !important;
   align-items: flex-start !important;
 }
 
-/* line 1423, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .align-items-end {
   -webkit-box-align: end !important;
   -ms-flex-align: end !important;
   align-items: flex-end !important;
 }
 
-/* line 1429, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .align-items-center {
   -webkit-box-align: center !important;
   -ms-flex-align: center !important;
   align-items: center !important;
 }
 
-/* line 1435, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .align-items-baseline {
   -webkit-box-align: baseline !important;
   -ms-flex-align: baseline !important;
   align-items: baseline !important;
 }
 
-/* line 1441, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .align-items-stretch {
   -webkit-box-align: stretch !important;
   -ms-flex-align: stretch !important;
   align-items: stretch !important;
 }
 
-/* line 1447, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .align-content-start {
   -ms-flex-line-pack: start !important;
   align-content: flex-start !important;
 }
 
-/* line 1452, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .align-content-end {
   -ms-flex-line-pack: end !important;
   align-content: flex-end !important;
 }
 
-/* line 1457, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .align-content-center {
   -ms-flex-line-pack: center !important;
   align-content: center !important;
 }
 
-/* line 1462, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .align-content-between {
   -ms-flex-line-pack: justify !important;
   align-content: space-between !important;
 }
 
-/* line 1467, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .align-content-around {
   -ms-flex-line-pack: distribute !important;
   align-content: space-around !important;
 }
 
-/* line 1472, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .align-content-stretch {
   -ms-flex-line-pack: stretch !important;
   align-content: stretch !important;
 }
 
-/* line 1477, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .align-self-auto {
   -ms-flex-item-align: auto !important;
   align-self: auto !important;
 }
 
-/* line 1482, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .align-self-start {
   -ms-flex-item-align: start !important;
   align-self: flex-start !important;
 }
 
-/* line 1487, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .align-self-end {
   -ms-flex-item-align: end !important;
   align-self: flex-end !important;
 }
 
-/* line 1492, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .align-self-center {
   -ms-flex-item-align: center !important;
   align-self: center !important;
 }
 
-/* line 1497, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .align-self-baseline {
   -ms-flex-item-align: baseline !important;
   align-self: baseline !important;
 }
 
-/* line 1502, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
 .align-self-stretch {
   -ms-flex-item-align: stretch !important;
   align-self: stretch !important;
 }
 
 @media (min-width: 576px) {
-  /* line 1508, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-sm-row {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
     -ms-flex-direction: row !important;
     flex-direction: row !important;
   }
-  /* line 1514, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-sm-column {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
     -ms-flex-direction: column !important;
     flex-direction: column !important;
   }
-  /* line 1520, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-sm-row-reverse {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: reverse !important;
     -ms-flex-direction: row-reverse !important;
     flex-direction: row-reverse !important;
   }
-  /* line 1526, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-sm-column-reverse {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: reverse !important;
     -ms-flex-direction: column-reverse !important;
     flex-direction: column-reverse !important;
   }
-  /* line 1532, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-sm-wrap {
     -ms-flex-wrap: wrap !important;
     flex-wrap: wrap !important;
   }
-  /* line 1536, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-sm-nowrap {
     -ms-flex-wrap: nowrap !important;
     flex-wrap: nowrap !important;
   }
-  /* line 1540, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-sm-wrap-reverse {
     -ms-flex-wrap: wrap-reverse !important;
     flex-wrap: wrap-reverse !important;
   }
-  /* line 1544, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .justify-content-sm-start {
     -webkit-box-pack: start !important;
     -ms-flex-pack: start !important;
     justify-content: flex-start !important;
   }
-  /* line 1549, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .justify-content-sm-end {
     -webkit-box-pack: end !important;
     -ms-flex-pack: end !important;
     justify-content: flex-end !important;
   }
-  /* line 1554, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .justify-content-sm-center {
     -webkit-box-pack: center !important;
     -ms-flex-pack: center !important;
     justify-content: center !important;
   }
-  /* line 1559, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .justify-content-sm-between {
     -webkit-box-pack: justify !important;
     -ms-flex-pack: justify !important;
     justify-content: space-between !important;
   }
-  /* line 1564, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .justify-content-sm-around {
     -ms-flex-pack: distribute !important;
     justify-content: space-around !important;
   }
-  /* line 1568, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-items-sm-start {
     -webkit-box-align: start !important;
     -ms-flex-align: start !important;
     align-items: flex-start !important;
   }
-  /* line 1573, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-items-sm-end {
     -webkit-box-align: end !important;
     -ms-flex-align: end !important;
     align-items: flex-end !important;
   }
-  /* line 1578, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-items-sm-center {
     -webkit-box-align: center !important;
     -ms-flex-align: center !important;
     align-items: center !important;
   }
-  /* line 1583, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-items-sm-baseline {
     -webkit-box-align: baseline !important;
     -ms-flex-align: baseline !important;
     align-items: baseline !important;
   }
-  /* line 1588, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-items-sm-stretch {
     -webkit-box-align: stretch !important;
     -ms-flex-align: stretch !important;
     align-items: stretch !important;
   }
-  /* line 1593, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-sm-start {
     -ms-flex-line-pack: start !important;
     align-content: flex-start !important;
   }
-  /* line 1597, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-sm-end {
     -ms-flex-line-pack: end !important;
     align-content: flex-end !important;
   }
-  /* line 1601, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-sm-center {
     -ms-flex-line-pack: center !important;
     align-content: center !important;
   }
-  /* line 1605, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-sm-between {
     -ms-flex-line-pack: justify !important;
     align-content: space-between !important;
   }
-  /* line 1609, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-sm-around {
     -ms-flex-line-pack: distribute !important;
     align-content: space-around !important;
   }
-  /* line 1613, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-sm-stretch {
     -ms-flex-line-pack: stretch !important;
     align-content: stretch !important;
   }
-  /* line 1617, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-sm-auto {
     -ms-flex-item-align: auto !important;
     align-self: auto !important;
   }
-  /* line 1621, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-sm-start {
     -ms-flex-item-align: start !important;
     align-self: flex-start !important;
   }
-  /* line 1625, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-sm-end {
     -ms-flex-item-align: end !important;
     align-self: flex-end !important;
   }
-  /* line 1629, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-sm-center {
     -ms-flex-item-align: center !important;
     align-self: center !important;
   }
-  /* line 1633, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-sm-baseline {
     -ms-flex-item-align: baseline !important;
     align-self: baseline !important;
   }
-  /* line 1637, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-sm-stretch {
     -ms-flex-item-align: stretch !important;
     align-self: stretch !important;
@@ -1969,164 +1641,135 @@ html {
 }
 
 @media (min-width: 768px) {
-  /* line 1644, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-md-row {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
     -ms-flex-direction: row !important;
     flex-direction: row !important;
   }
-  /* line 1650, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-md-column {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
     -ms-flex-direction: column !important;
     flex-direction: column !important;
   }
-  /* line 1656, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-md-row-reverse {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: reverse !important;
     -ms-flex-direction: row-reverse !important;
     flex-direction: row-reverse !important;
   }
-  /* line 1662, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-md-column-reverse {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: reverse !important;
     -ms-flex-direction: column-reverse !important;
     flex-direction: column-reverse !important;
   }
-  /* line 1668, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-md-wrap {
     -ms-flex-wrap: wrap !important;
     flex-wrap: wrap !important;
   }
-  /* line 1672, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-md-nowrap {
     -ms-flex-wrap: nowrap !important;
     flex-wrap: nowrap !important;
   }
-  /* line 1676, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-md-wrap-reverse {
     -ms-flex-wrap: wrap-reverse !important;
     flex-wrap: wrap-reverse !important;
   }
-  /* line 1680, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .justify-content-md-start {
     -webkit-box-pack: start !important;
     -ms-flex-pack: start !important;
     justify-content: flex-start !important;
   }
-  /* line 1685, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .justify-content-md-end {
     -webkit-box-pack: end !important;
     -ms-flex-pack: end !important;
     justify-content: flex-end !important;
   }
-  /* line 1690, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .justify-content-md-center {
     -webkit-box-pack: center !important;
     -ms-flex-pack: center !important;
     justify-content: center !important;
   }
-  /* line 1695, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .justify-content-md-between {
     -webkit-box-pack: justify !important;
     -ms-flex-pack: justify !important;
     justify-content: space-between !important;
   }
-  /* line 1700, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .justify-content-md-around {
     -ms-flex-pack: distribute !important;
     justify-content: space-around !important;
   }
-  /* line 1704, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-items-md-start {
     -webkit-box-align: start !important;
     -ms-flex-align: start !important;
     align-items: flex-start !important;
   }
-  /* line 1709, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-items-md-end {
     -webkit-box-align: end !important;
     -ms-flex-align: end !important;
     align-items: flex-end !important;
   }
-  /* line 1714, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-items-md-center {
     -webkit-box-align: center !important;
     -ms-flex-align: center !important;
     align-items: center !important;
   }
-  /* line 1719, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-items-md-baseline {
     -webkit-box-align: baseline !important;
     -ms-flex-align: baseline !important;
     align-items: baseline !important;
   }
-  /* line 1724, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-items-md-stretch {
     -webkit-box-align: stretch !important;
     -ms-flex-align: stretch !important;
     align-items: stretch !important;
   }
-  /* line 1729, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-md-start {
     -ms-flex-line-pack: start !important;
     align-content: flex-start !important;
   }
-  /* line 1733, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-md-end {
     -ms-flex-line-pack: end !important;
     align-content: flex-end !important;
   }
-  /* line 1737, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-md-center {
     -ms-flex-line-pack: center !important;
     align-content: center !important;
   }
-  /* line 1741, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-md-between {
     -ms-flex-line-pack: justify !important;
     align-content: space-between !important;
   }
-  /* line 1745, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-md-around {
     -ms-flex-line-pack: distribute !important;
     align-content: space-around !important;
   }
-  /* line 1749, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-md-stretch {
     -ms-flex-line-pack: stretch !important;
     align-content: stretch !important;
   }
-  /* line 1753, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-md-auto {
     -ms-flex-item-align: auto !important;
     align-self: auto !important;
   }
-  /* line 1757, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-md-start {
     -ms-flex-item-align: start !important;
     align-self: flex-start !important;
   }
-  /* line 1761, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-md-end {
     -ms-flex-item-align: end !important;
     align-self: flex-end !important;
   }
-  /* line 1765, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-md-center {
     -ms-flex-item-align: center !important;
     align-self: center !important;
   }
-  /* line 1769, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-md-baseline {
     -ms-flex-item-align: baseline !important;
     align-self: baseline !important;
   }
-  /* line 1773, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-md-stretch {
     -ms-flex-item-align: stretch !important;
     align-self: stretch !important;
@@ -2134,164 +1777,135 @@ html {
 }
 
 @media (min-width: 992px) {
-  /* line 1780, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-lg-row {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
     -ms-flex-direction: row !important;
     flex-direction: row !important;
   }
-  /* line 1786, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-lg-column {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
     -ms-flex-direction: column !important;
     flex-direction: column !important;
   }
-  /* line 1792, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-lg-row-reverse {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: reverse !important;
     -ms-flex-direction: row-reverse !important;
     flex-direction: row-reverse !important;
   }
-  /* line 1798, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-lg-column-reverse {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: reverse !important;
     -ms-flex-direction: column-reverse !important;
     flex-direction: column-reverse !important;
   }
-  /* line 1804, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-lg-wrap {
     -ms-flex-wrap: wrap !important;
     flex-wrap: wrap !important;
   }
-  /* line 1808, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-lg-nowrap {
     -ms-flex-wrap: nowrap !important;
     flex-wrap: nowrap !important;
   }
-  /* line 1812, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-lg-wrap-reverse {
     -ms-flex-wrap: wrap-reverse !important;
     flex-wrap: wrap-reverse !important;
   }
-  /* line 1816, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .justify-content-lg-start {
     -webkit-box-pack: start !important;
     -ms-flex-pack: start !important;
     justify-content: flex-start !important;
   }
-  /* line 1821, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .justify-content-lg-end {
     -webkit-box-pack: end !important;
     -ms-flex-pack: end !important;
     justify-content: flex-end !important;
   }
-  /* line 1826, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .justify-content-lg-center {
     -webkit-box-pack: center !important;
     -ms-flex-pack: center !important;
     justify-content: center !important;
   }
-  /* line 1831, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .justify-content-lg-between {
     -webkit-box-pack: justify !important;
     -ms-flex-pack: justify !important;
     justify-content: space-between !important;
   }
-  /* line 1836, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .justify-content-lg-around {
     -ms-flex-pack: distribute !important;
     justify-content: space-around !important;
   }
-  /* line 1840, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-items-lg-start {
     -webkit-box-align: start !important;
     -ms-flex-align: start !important;
     align-items: flex-start !important;
   }
-  /* line 1845, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-items-lg-end {
     -webkit-box-align: end !important;
     -ms-flex-align: end !important;
     align-items: flex-end !important;
   }
-  /* line 1850, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-items-lg-center {
     -webkit-box-align: center !important;
     -ms-flex-align: center !important;
     align-items: center !important;
   }
-  /* line 1855, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-items-lg-baseline {
     -webkit-box-align: baseline !important;
     -ms-flex-align: baseline !important;
     align-items: baseline !important;
   }
-  /* line 1860, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-items-lg-stretch {
     -webkit-box-align: stretch !important;
     -ms-flex-align: stretch !important;
     align-items: stretch !important;
   }
-  /* line 1865, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-lg-start {
     -ms-flex-line-pack: start !important;
     align-content: flex-start !important;
   }
-  /* line 1869, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-lg-end {
     -ms-flex-line-pack: end !important;
     align-content: flex-end !important;
   }
-  /* line 1873, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-lg-center {
     -ms-flex-line-pack: center !important;
     align-content: center !important;
   }
-  /* line 1877, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-lg-between {
     -ms-flex-line-pack: justify !important;
     align-content: space-between !important;
   }
-  /* line 1881, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-lg-around {
     -ms-flex-line-pack: distribute !important;
     align-content: space-around !important;
   }
-  /* line 1885, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-lg-stretch {
     -ms-flex-line-pack: stretch !important;
     align-content: stretch !important;
   }
-  /* line 1889, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-lg-auto {
     -ms-flex-item-align: auto !important;
     align-self: auto !important;
   }
-  /* line 1893, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-lg-start {
     -ms-flex-item-align: start !important;
     align-self: flex-start !important;
   }
-  /* line 1897, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-lg-end {
     -ms-flex-item-align: end !important;
     align-self: flex-end !important;
   }
-  /* line 1901, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-lg-center {
     -ms-flex-item-align: center !important;
     align-self: center !important;
   }
-  /* line 1905, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-lg-baseline {
     -ms-flex-item-align: baseline !important;
     align-self: baseline !important;
   }
-  /* line 1909, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-lg-stretch {
     -ms-flex-item-align: stretch !important;
     align-self: stretch !important;
@@ -2299,170 +1913,138 @@ html {
 }
 
 @media (min-width: 1200px) {
-  /* line 1916, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-xl-row {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
     -ms-flex-direction: row !important;
     flex-direction: row !important;
   }
-  /* line 1922, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-xl-column {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
     -ms-flex-direction: column !important;
     flex-direction: column !important;
   }
-  /* line 1928, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-xl-row-reverse {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: reverse !important;
     -ms-flex-direction: row-reverse !important;
     flex-direction: row-reverse !important;
   }
-  /* line 1934, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-xl-column-reverse {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: reverse !important;
     -ms-flex-direction: column-reverse !important;
     flex-direction: column-reverse !important;
   }
-  /* line 1940, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-xl-wrap {
     -ms-flex-wrap: wrap !important;
     flex-wrap: wrap !important;
   }
-  /* line 1944, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-xl-nowrap {
     -ms-flex-wrap: nowrap !important;
     flex-wrap: nowrap !important;
   }
-  /* line 1948, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .flex-xl-wrap-reverse {
     -ms-flex-wrap: wrap-reverse !important;
     flex-wrap: wrap-reverse !important;
   }
-  /* line 1952, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .justify-content-xl-start {
     -webkit-box-pack: start !important;
     -ms-flex-pack: start !important;
     justify-content: flex-start !important;
   }
-  /* line 1957, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .justify-content-xl-end {
     -webkit-box-pack: end !important;
     -ms-flex-pack: end !important;
     justify-content: flex-end !important;
   }
-  /* line 1962, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .justify-content-xl-center {
     -webkit-box-pack: center !important;
     -ms-flex-pack: center !important;
     justify-content: center !important;
   }
-  /* line 1967, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .justify-content-xl-between {
     -webkit-box-pack: justify !important;
     -ms-flex-pack: justify !important;
     justify-content: space-between !important;
   }
-  /* line 1972, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .justify-content-xl-around {
     -ms-flex-pack: distribute !important;
     justify-content: space-around !important;
   }
-  /* line 1976, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-items-xl-start {
     -webkit-box-align: start !important;
     -ms-flex-align: start !important;
     align-items: flex-start !important;
   }
-  /* line 1981, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-items-xl-end {
     -webkit-box-align: end !important;
     -ms-flex-align: end !important;
     align-items: flex-end !important;
   }
-  /* line 1986, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-items-xl-center {
     -webkit-box-align: center !important;
     -ms-flex-align: center !important;
     align-items: center !important;
   }
-  /* line 1991, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-items-xl-baseline {
     -webkit-box-align: baseline !important;
     -ms-flex-align: baseline !important;
     align-items: baseline !important;
   }
-  /* line 1996, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-items-xl-stretch {
     -webkit-box-align: stretch !important;
     -ms-flex-align: stretch !important;
     align-items: stretch !important;
   }
-  /* line 2001, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-xl-start {
     -ms-flex-line-pack: start !important;
     align-content: flex-start !important;
   }
-  /* line 2005, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-xl-end {
     -ms-flex-line-pack: end !important;
     align-content: flex-end !important;
   }
-  /* line 2009, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-xl-center {
     -ms-flex-line-pack: center !important;
     align-content: center !important;
   }
-  /* line 2013, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-xl-between {
     -ms-flex-line-pack: justify !important;
     align-content: space-between !important;
   }
-  /* line 2017, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-xl-around {
     -ms-flex-line-pack: distribute !important;
     align-content: space-around !important;
   }
-  /* line 2021, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-content-xl-stretch {
     -ms-flex-line-pack: stretch !important;
     align-content: stretch !important;
   }
-  /* line 2025, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-xl-auto {
     -ms-flex-item-align: auto !important;
     align-self: auto !important;
   }
-  /* line 2029, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-xl-start {
     -ms-flex-item-align: start !important;
     align-self: flex-start !important;
   }
-  /* line 2033, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-xl-end {
     -ms-flex-item-align: end !important;
     align-self: flex-end !important;
   }
-  /* line 2037, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-xl-center {
     -ms-flex-item-align: center !important;
     align-self: center !important;
   }
-  /* line 2041, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-xl-baseline {
     -ms-flex-item-align: baseline !important;
     align-self: baseline !important;
   }
-  /* line 2045, C:/Users/Barcelos/Desktop/Projetos/teste-designio/src/sass/scss/bootstrap-grid.scss */
   .align-self-xl-stretch {
     -ms-flex-item-align: stretch !important;
     align-self: stretch !important;
   }
 }
-
 /*# sourceMappingURL=bootstrap-grid.css.map */
-
-/*# sourceMappingURL=../css/bootstrap-grid.map */
