@@ -9,6 +9,16 @@ $secondaryColor: #3168ff;
     src: url('../../fonts/TitilliumWeb-SemiBold.ttf');
 }
 
+@font-face{
+    font-family: 'SourceSansPro-Semibold';
+    src: url('../../fonts/SourceSansPro-Semibold.otf');
+}
+
+@font-face{
+    font-family: 'Roboto-Light';
+    src: url('../../fonts/Roboto-Light.ttf');
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -17,27 +27,45 @@ $secondaryColor: #3168ff;
     font-family: 'TitilliumWeb-SemiBold';
 }
 
-header{
-    width: 100vw;
+.menu{
+    @media only screen and (max-width: 768px) {
+        ul{
+            display: none;
+        }
+    }
+    z-index: 9999;
+    width: 100%;
+    text-align: center;
+    display: inline-table;
     margin: 0 auto;
-    ul{
-        z-index: 9999;
-        width: 100vw;
-        text-align: center;
-        display: inline-table;
-        margin: 0 auto;
-        position: fixed;
-        text-transform: uppercase;
+    position: absolute;
+    text-transform: uppercase;
+    nav{
+        img{
+            margin-right: 130px;
+        }
         li{
-            display: inline-table;
+            display: inline-block;
             a{
                 font-size: 1em;
                 display: block;
                 color: $primaryColor;
-                padding: 95px 26px 0 0;
+                padding-right: 26px;
             }
-        } 
+            i{
+                font-size: 2.81em;
+            }
+        }
+        li:last-child{
+            padding-left: 4px;
+        }
     }  
+}
+
+.fixed{
+    position: fixed;
+    padding: 20px;
+    background-color: black;
 }
 
 .banner{
@@ -61,10 +89,11 @@ header{
         height: auto;
         width: auto;
         text-align: center;
-        margin-top: -110px;
+        margin-top: -100px;
         margin-bottom: 10px;
         color: $primaryColor;
         font-size: 1.5em;
+        font-family: 'SourceSansPro-Semibold';
     }
 
     .bg-video{
@@ -77,6 +106,7 @@ header{
         margin-top: -65px;
         border-radius: 5px;
         border: solid 14px $primaryColor;
+        border-bottom: none;
         background-color: rgb(104, 104, 104);
     }
 
@@ -89,34 +119,44 @@ header{
     }
 }
 .about{
-    margin-top: 25px;
+    margin-top: 52px;
     margin-bottom: 25px; 
     
     .text-about{
         h2{
             font-size: 1.5em;
+            margin-bottom: 30px;
             color: #6D6D6D;
+            font-family: 'SourceSansPro-Semibold';
         }
         p{
             width: auto;
             color: #707070;
             font-size: 1.125em;  
+            font-family: 'Roboto-Light';
         }
     }
-    .lemon-text p{
-        width: 150px;
-         
-    }
 
+    .lemon-text p{
+        width: 190px;    
+    }
     .eye-text p{
-        width: 100px;
+        width: 150px;
+    }
+    i{
+        width: 100%;
+        text-align: center;
+        color: $primaryColor;
+        font-size: 70px;
+        margin: 0 auto;
+        margin-top: 40px;
     }
     .lemon-text, .eye-text{
-        background-color: grey;
-        height: 192px;
+        background-color: #777777;
+        height: 233px;
         width: 100%;
-        
         p{
+            font-family: 'SourceSansPro-Semibold';
             padding-top: 20px;
             margin: 0 auto;
             color: $primaryColor;
@@ -127,47 +167,79 @@ header{
 }
 
 .contact{
+    margin-top: 60px;
+    margin-bottom: 60px;
     .col-sm-7{
-        height: 400px;
+        height: 689px;
         background-color: grey;
     }
     h1{
         text-transform: uppercase;
         font-size: 2.25em;
+        font-family: 'SourceSansPro-Semibold';
+        color: #6D6D6D;
+        margin-bottom: 80px;
+    }
+    p{
+        font-size: 1.125em;
+        font-family: 'Roboto-Light';
+        color: #707070;
+        height: auto;
+        width: auto;
     }
     .contact-form{
-        height: auto;
+        height: 470px;
         label{
             position: relative;
-            top: 5px;
             font-size: 0.875em;
-            color: grey;
+            color:#A7A7A7;
+            font-family: 'Roboto-Light';
         }
         input{
             outline: none;
-            color: #696969;
+            color: #707070;
             width: 100%;
             border-radius: 0;
             border-width: 0 0 1px;
-            border-bottom-color:grey;
-            margin-bottom: 20px;
+            border-bottom-color:#EEEEEE;
+            margin-bottom: 25px;
         }
-        input, p{
+        .g-recaptcha{
+            margin-top: 5px;
+            margin-bottom: 30px;
+        }
+        input{
             font-size: 1.125em;
+            font-family: 'Roboto-Light';
         }
         input:focus{
             box-shadow: none;
             border-bottom: 2px solid $secondaryColor;
         }
-        button{
+        .submit{
             text-transform: uppercase;
             color: $primaryColor;
-            padding: 10px 60px;
+            height: 50px;
+            width: 270px;
             border: none;
-            border-radius: 20px;
+            margin-bottom: 32px;
+            border-radius: 32px;
             background-color: $secondaryColor;
             float: right;
             font-size: 1em;
+            font-family: 'SourceSansPro-Semibold';
+        }
+        ::-webkit-input-placeholder{
+            color: #656565;
+        }
+        :moz-placeholder{
+            color: #656565;
+        }
+        ::-moz-placeholder{
+            color: #656565;
+        }
+        ::-ms-input-placeholder{
+            color: #656565;
         }
     }
 }
@@ -175,11 +247,13 @@ header{
 footer{
     width: 100%;
     margin: 0 auto;
+    height: 50px;
     background-color:$secondaryColor;
     p{
-        padding: 12px 0;
         text-align: center;
+        padding-top: 17px;
         color: $primaryColor;
         font-size: 0.875em;
+        font-family: 'Roboto-Light';
     }
 }

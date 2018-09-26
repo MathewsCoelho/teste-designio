@@ -7,26 +7,31 @@
     <meta name="author" content="Matheus Coelho">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WOW BFA</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="src/sass/css/bootstrap-grid.css">
     <link rel="stylesheet" href="src/sass/css/style.css">
 </head>
 <body>
-    <header>
+    <header class="menu">
         <nav>
-            <ul>
-                <li> <a href=""> Início </a> </li>
-                <li> <a href=""> Assista ao trailer </a></li>
-                <li> <a href=""> Sobre o jogo </a> </li>
-                <li> <a href=""> Galeria </a> </li>
-                <li> <a href=""> Fale Conosco </a></li>
+            <img src="src/images/logo.png" alt="Logo World Of Warcraft">
+            <ul> 
+                <li> <a href="#begin"> Início </a> </li>
+                <li> <a href="#presentation"> Assista ao trailer </a></li>
+                <li> <a href="#about"> Sobre o jogo </a> </li>
+                <li> <a href="#gallery"> Galeria </a> </li>
+                <li> <a href="#contact"> Fale Conosco </a></li>
+                <li> <a href=""> <i class="fab fa-facebook-square"></i> </a></li>
+                <li> <a href=""> <i class="fab fa-instagram"></i> </a></li>
+                
             </ul>
         </nav>
     </header>
-    <section class="banner">
+    <section class="banner" id="begin">
         <img src="src/images/wowbg.png" alt="World of Warcraft">
     </section>
 
-    <section class="presentation">
+    <section class="presentation" id="presentation">
         <div class="container">
             <div class="row">
                     <div class="col-sm-12">
@@ -43,29 +48,30 @@
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
                     <div class="text-about">
                         <h2>Sobre o jogo</h2>
-                        <p>
-                            World of Warcraft: Battle for azeroth é o sétimo pacote de
+                        <p class="">
+                            World of Warcraft: Battle for Azeroth é o sétimo pacote de
                             expansão do jogo World of Warcraft, desenvolvido e 
                             distribuido pela Blizzard Entertainment. Foi anunciado em
-                            2017. A expansão elevou o nível 110 para 120, incluiu 2
-                            novos continentes em Azeroth chamados Kul'Tiras e
-                            Zandalar e 6 novas raças.
+                            2017. A expansão elevou o nível de 110 para 120, incluiu 2
+                            novos continentes em Azeroth chamados Kul'Tiras e Zandalar.
                         </p>
                     </div>
                 </div>
                 <div class="col-sm-3">
                     <div class="lemon-text">
+                        <i class="far fa-lemon"></i>
                         <p> Se a vida te da limões, faça limonada</p>
                     </div>
                 </div>
                 <div class="col-sm-3">
                     <div class="eye-text">
+                        <i class="far fa-eye"></i> 
                         <p> Deus ta vendo tudo isso daí</p>
                     </div>
                 </div>
@@ -73,7 +79,7 @@
         </div>
     </section>
 
-    <section class="gallery">
+    <section class="gallery" id="gallery">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -83,7 +89,7 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-5">
@@ -91,18 +97,18 @@
                         <div class="contact-form">
                             <form action="">
                                 <label for="name"> Nome </label>
-                                <input type="text" name="name" id="name" placeholder="Seu nome">
+                                <input type="text" name="name" id="name" maxlength="35"  placeholder="Seu nome">
                                 <label for="telephone"> Telefone </label>
-                                <input type="text" name="telephone" id="telephone" placeholder="Informe seu telefone para contato">
+                                <input type="text" name="telephone" id="telephone" maxlength="13" placeholder="Informe seu telefone para contato">
                                 <label for="email"> E-mail </label>
-                                <input type="text" name="email" id="email" placeholder="Seu e-mail">
+                                <input type="text" name="email" id="email" maxlength="50" placeholder="Seu e-mail">
                                 <label for="message"> Mensagem </label>
-                                <input type="text" name="message" id="message" placeholder="Digite aqui sua mensagem">
+                                <input type="text" name="message" id="message"  placeholder="Digite aqui sua mensagem">
                                 <div class="g-recaptcha" data-sitekey="6LcePAATAAAAAGPRWgx90814DTjgt5sXnNbV5WaW"></div>
-                                <button> Enviar Mensagem </button>
+                                <input type="button" name="submit" id="submit" class="submit" value="Enviar Mensagem">
                             </form>
                         </div>
-                        <p> contato@projetodesignio.com.br</p>
+                        <p> <i class="far fa-envelope"></i> contato@projetodesignio.com.br</p>
                     </div>
                     <div class="col-sm-7">
                             <div class="map"></div>
@@ -115,9 +121,13 @@
         <p> Blizzard Entertainment. Todos os direitos reservados.</p>
     </footer>
 
-   <!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
-  async defer></script>
-  <script src='https://www.google.com/recaptcha/api.js?hl=pt-BR'></script>
-    <script src="src/js/script.js"></script>  -->  
+  <!--  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+  async defer></script> -->
+  <script src='https://www.google.com/recaptcha/api.js?hl=pt-BR'></script> 
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="src/js/script.js"></script> 
 </body>
 </html>
